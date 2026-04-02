@@ -5,6 +5,28 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.2</title>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Welcome voice plays every launch</li>
+          <li>Remove judgment bar</li>
+          <li>History shows character avatar</li>
+          <li>Sparkle delayed 30s to prevent launch freeze</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 02 Apr 2026 15:00:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.2.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="9999899"
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.1</title>
       <sparkle:version>2</sparkle:version>
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
