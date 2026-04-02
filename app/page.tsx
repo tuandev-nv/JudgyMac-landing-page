@@ -1,3 +1,4 @@
+import { BUY_URL, DOWNLOAD_URL } from "./constants";
 import {
   Eye,
   Flame,
@@ -61,7 +62,7 @@ export default function Home() {
           </p>
 
           <a
-            href="/JudgyMac-1.0.0.dmg"
+            href={DOWNLOAD_URL}
             className="inline-block bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg px-10 py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.02]"
           >
             Download for Mac — Free
@@ -474,13 +475,13 @@ export default function Home() {
               </ul>
 
               <a
-                href="/JudgyMac-1.0.0.dmg"
+                href={DOWNLOAD_URL}
                 className="block w-full bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.01] mb-3"
               >
                 Download for Mac — Free
               </a>
               <a
-                href="https://buy.polar.sh/polar_cl_tYhSI5wjf6CChYaHI4fymKXoLkVLWkAMlaoKC0vxNCI"
+                href={BUY_URL}
                 className="block w-full border border-white/[0.15] text-white/80 font-semibold text-base py-3.5 rounded-full hover:border-white/[0.3] hover:text-white transition-all duration-300"
               >
                 Buy License — $5
@@ -683,7 +684,7 @@ export default function Home() {
             say it out loud.
           </p>
           <a
-            href="/JudgyMac-1.0.0.dmg"
+            href={DOWNLOAD_URL}
             className="inline-block bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg px-12 py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.02]"
           >
             Download JudgyMac — Free
