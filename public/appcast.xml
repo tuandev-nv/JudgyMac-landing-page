@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>JudgyMac Updates</title>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.0.1</title>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Fix: emoji toast sometimes showing default instead of character</li>
+          <li>Fix: voice still playing when muted</li>
+          <li>Fix: app_switch roast showing 0 count</li>
+          <li>Add: first-launch welcome voice</li>
+          <li>Add: Sparkle auto-update</li>
+          <li>Add: faster desktop runner speed</li>
+          <li>Add: license input in Settings on first click</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 02 Apr 2026 14:00:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.1.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="10003533"
+      />
+    </item>
+
+    <item>
+      <title>Version 1.0.0</title>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Initial release</li>
+          <li>Trump character pack with 96 roast templates</li>
+          <li>Slap detection via accelerometer</li>
+          <li>Desktop runner KO animation</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 02 Apr 2026 12:00:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.0.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="0"
+      />
+    </item>
+
+  </channel>
+</rss>
