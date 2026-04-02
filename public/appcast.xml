@@ -5,6 +5,27 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.5</title>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Alt-Tab counts every switch (real count)</li>
+          <li>K.O. counter replaces Overheat</li>
+          <li>Auto-save every 10s</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 02 Apr 2026 17:30:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.5.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="9845103"
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.4</title>
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
