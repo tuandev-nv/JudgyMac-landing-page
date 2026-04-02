@@ -14,6 +14,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import ScrollReveal from "./components/ScrollReveal";
+import RunningTrump from "./components/RunningTrump";
 
 export default function Home() {
   return (
@@ -60,10 +61,10 @@ export default function Home() {
           </p>
 
           <a
-            href="#pricing"
+            href="/JudgyMac-1.0.0.dmg"
             className="inline-block bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg px-10 py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.02]"
           >
-            Download for Mac — $5
+            Download for Mac — Free
           </a>
           <p className="text-white/20 text-xs mt-4 tracking-wide">
             macOS 14+ &bull; Apple Silicon
@@ -71,29 +72,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Demo Video */}
-      <section className="py-32 px-6">
-        <ScrollReveal className="max-w-5xl mx-auto">
-          <div className="relative rounded-3xl overflow-hidden border border-white/[0.06] shadow-2xl shadow-black/50 bg-dark-800">
-            <div className="aspect-video flex items-center justify-center">
-              <div className="text-center">
-                <div className="mb-4">
-                  <Play
-                    className="w-16 h-16 text-white/20 mx-auto"
-                    strokeWidth={1}
-                  />
-                </div>
-                <p className="text-white/20 text-sm">
-                  Demo video — 30 seconds of judgment
-                </p>
-              </div>
-            </div>
-          </div>
-          <p className="text-center text-white/45 text-sm mt-6 tracking-wide">
-            Turn sound on for the full experience
-          </p>
-        </ScrollReveal>
-      </section>
 
       {/* How It Works */}
       <section className="py-32 px-6">
@@ -307,10 +285,32 @@ export default function Home() {
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-center mb-4 tracking-tight-apple">
               Choose Your <span className="gradient-text">Judge</span>
             </h2>
-            <p className="text-center text-white/45 text-lg mb-20 font-light">
+            <p className="text-center text-white/45 text-lg mb-10 font-light">
               Each character has unique voice lines, roast scripts, and
               personality.
             </p>
+
+            {/* Live menu bar preview */}
+            <div className="flex justify-center mb-20">
+              <div className="glass-card rounded-2xl px-6 py-3 inline-flex items-center gap-4">
+                <RunningTrump className="h-10 w-auto" />
+                <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-lg" style={{ background: 'linear-gradient(90deg, rgba(90,65,45,0.9), rgba(65,45,75,0.9))' }}>
+                  <div className="flex flex-col items-center leading-none">
+                    <span className="text-white/50 text-[9px] font-semibold">CPU</span>
+                    <span className="text-white/90 text-sm font-bold font-mono">30%</span>
+                  </div>
+                  <div className="flex flex-col items-center leading-none">
+                    <span className="text-white/50 text-[9px] font-semibold">GPU</span>
+                    <span className="text-white/90 text-sm font-bold font-mono">53%</span>
+                  </div>
+                  <div className="flex flex-col items-center leading-none">
+                    <span className="text-white/50 text-[9px] font-semibold">RAM</span>
+                    <span className="text-white/90 text-sm font-bold font-mono">75%</span>
+                  </div>
+                </div>
+                <span className="text-white/30 text-xs ml-2">Lives in your menu bar</span>
+              </div>
+            </div>
           </ScrollReveal>
 
           {/* Trump Pack */}
@@ -474,14 +474,19 @@ export default function Home() {
               </ul>
 
               <a
-                href="https://buy.polar.sh/polar_cl_tYhSI5wjf6CChYaHI4fymKXoLkVLWkAMlaoKC0vxNCI"
-                className="block w-full bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.01]"
+                href="/JudgyMac-1.0.0.dmg"
+                className="block w-full bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.01] mb-3"
               >
-                Download for Mac
+                Download for Mac — Free
               </a>
-              <p className="text-white/15 text-xs mt-5">
-                Secure checkout via Polar.sh &bull; Instant download + license
-                key
+              <a
+                href="https://buy.polar.sh/polar_cl_tYhSI5wjf6CChYaHI4fymKXoLkVLWkAMlaoKC0vxNCI"
+                className="block w-full border border-white/[0.15] text-white/80 font-semibold text-base py-3.5 rounded-full hover:border-white/[0.3] hover:text-white transition-all duration-300"
+              >
+                Buy License — $5
+              </a>
+              <p className="text-white/30 text-xs mt-5">
+                Download free &bull; Buy license to unlock all features
               </p>
             </div>
           </ScrollReveal>
@@ -622,10 +627,10 @@ export default function Home() {
             say it out loud.
           </p>
           <a
-            href="#pricing"
+            href="/JudgyMac-1.0.0.dmg"
             className="inline-block bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-lg px-12 py-4 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.02]"
           >
-            Download JudgyMac — $5
+            Download JudgyMac — Free
           </a>
         </div>
       </section>

@@ -42,6 +42,13 @@ body::after {
 .float { animation: float 4s ease-in-out infinite; }
 .fade-in-up { animation: fade-in-up 0.8s ease-out forwards; }
 
+/* Trump running across */
+@keyframes trump-run {
+    0% { transform: translateX(-50px); }
+    100% { transform: translateX(calc(100vw)); }
+}
+
+
 /* Gradient text */
 .gradient-text {
     background: linear-gradient(135deg, #FFD700, #FF6B35, #FF1744);
