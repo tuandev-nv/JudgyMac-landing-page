@@ -15,7 +15,7 @@ export default function Nav() {
                     <a href="/#pricing" className="hover:text-white transition-colors duration-300">Pricing</a>
                     <a href="/#faq" className="hover:text-white transition-colors duration-300">FAQ</a>
                 </div>
-                <a href={DOWNLOAD_URL} className="bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-sm px-5 py-2 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.02]">
+                <a href="/#pricing" className="bg-gradient-to-r from-brand-gold to-amber-500 text-black font-semibold text-sm px-5 py-2 rounded-full hover:brightness-110 transition-all duration-300 hover:scale-[1.02]">
                     Download
                 </a>
             </div>
