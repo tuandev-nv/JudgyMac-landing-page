@@ -602,9 +602,9 @@ export default function Home() {
                 />
               </summary>
               <div className="faq-content px-6 pb-6 text-white/60 text-base leading-relaxed font-light">
-                Yes! Cute Girl is next up, followed by Vietnamese Mom, Toxic
-                Boss, Shakespeare, and more community-suggested characters. All
-                future character packs are included in your purchase.
+                Yes! Cute Girl is next up, followed by Toxic Boss and more
+                community-suggested characters. All future character packs are
+                included in your purchase.
               </div>
             </details>
           </div>
