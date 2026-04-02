@@ -10,7 +10,6 @@ export default function Footer() {
                     <Link href="/privacy" className="hover:text-white/80 transition-colors duration-300">Privacy</Link>
                     <Link href="/terms" className="hover:text-white/80 transition-colors duration-300">Terms</Link>
                     <a href="/#disclaimer" className="hover:text-white/80 transition-colors duration-300">Parody Notice</a>
-                    <a href="https://twitter.com/judgymac" className="hover:text-white/80 transition-colors duration-300">Twitter</a>
                 </div>
             </div>
         </footer>

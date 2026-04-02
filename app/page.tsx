@@ -254,7 +254,7 @@ export default function Home() {
                   Slap Physics
                 </h3>
                 <p className="text-white/50 text-[15px] leading-relaxed font-light">
-                  8 damage levels, comic text effects, squash-stretch
+                  9 damage levels, comic text effects, squash-stretch
                   animations. KO at 32 hits triggers the Desktop Runner.
                 </p>
               </div>
@@ -353,7 +353,7 @@ export default function Home() {
                     The Donald
                   </h3>
                   <p className="text-white/70 mb-6 text-base leading-relaxed">
-                    &quot;Make slapping great again.&quot; 32 voice lines. 76
+                    &quot;Make slapping great again.&quot; 32 voice lines. 96
                     unique roasts. Covers lid opens, idle time, late nights,
                     thermal, app switching, screen time, and slaps.
                   </p>
@@ -534,7 +534,7 @@ export default function Home() {
               </summary>
               <div className="faq-content px-6 pb-6 text-white/60 text-base leading-relaxed font-light">
                 macOS 14 (Sonoma) or later, Apple Silicon (M1/M2/M3/M4). Works
-                on MacBook Air, MacBook Pro, Mac Mini, Mac Studio, and iMac.
+                on MacBook Air and MacBook Pro. Physical slap detection requires a MacBook with built-in accelerometer. Desktop Macs (Mac Mini, Mac Studio, iMac) can still use keyboard slap (Cmd+Shift+Click).
               </div>
             </details>
 
@@ -592,9 +592,7 @@ export default function Home() {
                 />
               </summary>
               <div className="faq-content px-6 pb-6 text-white/60 text-base leading-relaxed font-light">
-                Yes. If JudgyMac doesn&apos;t judge you hard enough, email
-                support@judgymac.com within 14 days for a full refund. No
-                questions asked (but we might roast you one last time).
+                Something not working? Email support@judgymac.xyz and we&apos;ll get it sorted. But if you slapped your MacBook into another dimension — that&apos;s between you and Apple.
               </div>
             </details>
 

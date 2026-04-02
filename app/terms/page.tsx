@@ -17,7 +17,7 @@ export default function TermsPage() {
 
                     <section className="glass rounded-2xl p-6" style={{ borderColor: 'rgba(255,255,255,0.15)' }}>
                         <h2 className="font-display text-xl font-bold text-white mb-3">TL;DR</h2>
-                        <p className="text-white/80">While the software itself cannot do any harm, slapping your MacBook can. If you break your laptop, that&apos;s on you. We offer 14-day refunds if the app doesn&apos;t work — not if you crack your screen.</p>
+                        <p className="text-white/80">The software won&apos;t harm your Mac — but your hands might. If you break your laptop, that&apos;s on you. Something not working? We&apos;ll fix it or refund it. Slapped too hard? Take it up with Apple.</p>
                     </section>
 
                     <section>
@@ -92,7 +92,7 @@ export default function TermsPage() {
 
                     <section>
                         <h2 className="font-display text-xl font-bold text-white mb-3">12. Refund Policy</h2>
-                        <p>We offer a <strong className="text-white">14-day refund policy</strong> from the date of purchase if the App malfunctions on a supported device. Email <a href="mailto:support@judgymac.xyz" className="text-brand-gold hover:underline">support@judgymac.xyz</a> within 14 days. No refunds for hardware damage caused by physical interaction with your device.</p>
+                        <p>If the App doesn&apos;t work on your supported device, email <a href="mailto:support@judgymac.xyz" className="text-brand-gold hover:underline">support@judgymac.xyz</a> and we&apos;ll make it right — fix or refund. No refunds for hardware damage, broken screens, or hurt feelings from particularly savage roasts.</p>
                     </section>
 
                     <section>
