@@ -26,8 +26,13 @@ export default function ThanksPage() {
   async function fetchLicenseKey(token: string) {
     try {
       const res = await fetch(
-        `https://api.polar.sh/v1/customer-portal/license-keys?token=${token}`,
-        { headers: { Accept: "application/json" } }
+        "https://api.polar.sh/v1/customer-portal/license-keys/",
+        {
+          headers: {
+            Accept: "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+        }
       );
 
       if (!res.ok) {
