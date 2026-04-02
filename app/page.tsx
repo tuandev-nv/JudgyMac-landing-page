@@ -225,7 +225,7 @@ export default function Home() {
                   RunCat-Style Stats
                 </h3>
                 <p className="text-white/50 text-[15px] leading-relaxed font-light">
-                  CPU, GPU, RAM in your menu bar. Character runs faster when CPU
+                  CPU & RAM in your menu bar. Character runs faster when CPU
                   spikes. Like RunCat, but judgmental.
                 </p>
               </div>
@@ -299,10 +299,6 @@ export default function Home() {
                   <div className="flex flex-col items-center leading-none">
                     <span className="text-white/50 text-[9px] font-semibold">CPU</span>
                     <span className="text-white/90 text-sm font-bold font-mono">30%</span>
-                  </div>
-                  <div className="flex flex-col items-center leading-none">
-                    <span className="text-white/50 text-[9px] font-semibold">GPU</span>
-                    <span className="text-white/90 text-sm font-bold font-mono">53%</span>
                   </div>
                   <div className="flex flex-col items-center leading-none">
                     <span className="text-white/50 text-[9px] font-semibold">RAM</span>

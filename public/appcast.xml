@@ -5,6 +5,28 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.6</title>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Perf: CPU 25% → 6% (accelerometer background thread, CGSession fix)</li>
+          <li>Remove GPU from menu bar (too expensive)</li>
+          <li>RAM matches Activity Monitor</li>
+          <li>Mouse dodge for desktop runner</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 02 Apr 2026 22:00:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.6.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="10008058"
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.5</title>
       <sparkle:version>6</sparkle:version>
       <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
