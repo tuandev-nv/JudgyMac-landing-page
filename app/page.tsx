@@ -496,6 +496,66 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Roadmap */}
+      <section className="py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <ScrollReveal>
+            <h2 className="font-display text-4xl md:text-6xl font-bold text-center mb-4 tracking-tight-apple">
+              What&apos;s <span className="gradient-text">Next</span>
+            </h2>
+            <p className="text-center text-white/45 text-lg mb-16 font-light">
+              JudgyMac is just getting started. Here&apos;s what&apos;s coming.
+            </p>
+          </ScrollReveal>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <ScrollReveal delay={1}>
+              <div className="glass-card rounded-2xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-2 h-2 rounded-full bg-green-400"></div>
+                  <span className="text-green-400 text-xs font-medium uppercase tracking-wider">In Progress</span>
+                </div>
+                <h3 className="font-display font-bold text-xl mb-2">Cute Girl Character Pack</h3>
+                <p className="text-white/50 text-[15px] leading-relaxed">New character with unique voice lines, personality, and roast style. A different kind of judgment.</p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={2}>
+              <div className="glass-card rounded-2xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-2 h-2 rounded-full bg-amber-400"></div>
+                  <span className="text-amber-400 text-xs font-medium uppercase tracking-wider">Planned</span>
+                </div>
+                <h3 className="font-display font-bold text-xl mb-2">Daily Slap Report</h3>
+                <p className="text-white/50 text-[15px] leading-relaxed">Shareable card showing your daily slap count, favorite roasts, and how hard you hit. Flex your slaps on social media.</p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={3}>
+              <div className="glass-card rounded-2xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-2 h-2 rounded-full bg-amber-400"></div>
+                  <span className="text-amber-400 text-xs font-medium uppercase tracking-wider">Planned</span>
+                </div>
+                <h3 className="font-display font-bold text-xl mb-2">Toxic Boss Pack</h3>
+                <p className="text-white/50 text-[15px] leading-relaxed">Your worst manager, now living in your menu bar. Micromanages your screen time and judges your alt-tab habits.</p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={4}>
+              <div className="glass-card rounded-2xl p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-2 h-2 rounded-full bg-blue-400"></div>
+                  <span className="text-blue-400 text-xs font-medium uppercase tracking-wider">Exploring</span>
+                </div>
+                <h3 className="font-display font-bold text-xl mb-2">Auto-Update (Sparkle)</h3>
+                <p className="text-white/50 text-[15px] leading-relaxed">One-click updates without re-downloading. Stay judged with the latest version automatically.</p>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section id="faq" className="py-32 px-6">
         <div className="max-w-3xl mx-auto">
@@ -562,9 +622,7 @@ export default function Home() {
                 />
               </summary>
               <div className="faq-content px-6 pb-6 text-white/60 text-base leading-relaxed font-light">
-                Minimal impact. JudgyMac uses ~0.1% CPU on average. The menu bar
-                animation runs at 4Hz (like RunCat). Behavior detection is
-                event-driven, not constant polling.
+                Minimal impact. The menu bar animation is lightweight and behavior detection is event-driven, not constant polling.
               </div>
             </details>
 
