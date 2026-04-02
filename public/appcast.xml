@@ -5,6 +5,25 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.3</title>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>Fix: license key validation now works with Polar.sh API</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 02 Apr 2026 16:00:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.3.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="10000117"
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.2</title>
       <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
