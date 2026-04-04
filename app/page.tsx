@@ -647,7 +647,7 @@ export default function Home() {
                 />
               </summary>
               <div className="faq-content px-6 pb-6 text-white/60 text-base leading-relaxed font-light">
-                Something not working? Email support@judgymac.xyz and we&apos;ll get it sorted. But if you slapped your MacBook into another dimension — that&apos;s between you and Apple.
+                14-day money-back guarantee, no questions asked. Something not working? Email support@judgymac.xyz and we&apos;ll refund you. But if you slapped your MacBook into another dimension — that&apos;s between you and Apple.
               </div>
             </details>
 
