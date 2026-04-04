@@ -647,7 +647,7 @@ export default function Home() {
                 />
               </summary>
               <div className="faq-content px-6 pb-6 text-white/60 text-base leading-relaxed font-light">
-                14-day money-back guarantee, no questions asked. Something not working? Email support@judgymac.xyz and we&apos;ll refund you. But if you slapped your MacBook into another dimension — that&apos;s between you and Apple.
+                If the app doesn&apos;t work on your machine, email support@judgymac.xyz within 14 days and we&apos;ll sort it out or refund you. But no refunds for slapping too hard or breaking stuff — that&apos;s between you and Apple.
               </div>
             </details>
 
