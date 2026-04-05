@@ -13,6 +13,7 @@ import {
   Play,
   Check,
   ChevronDown,
+  Volume2,
 } from "lucide-react";
 import ScrollReveal from "./components/ScrollReveal";
 import RunningTrump from "./components/RunningTrump";
@@ -170,6 +171,21 @@ export default function Home() {
           </ScrollReveal>
 
           <div className="grid md:grid-cols-2 gap-5">
+            <div className="group glass-card rounded-2xl p-8 flex gap-5">
+              <Volume2
+                className="w-7 h-7 text-orange-400 flex-shrink-0 mt-1"
+                strokeWidth={1.5}
+              />
+              <div>
+                <h3 className="font-display font-semibold text-lg mb-2">
+                  Lid Creak Sound
+                </h3>
+                <p className="text-white/50 text-[15px] leading-relaxed font-light">
+                  Open or close your MacBook and it creaks like an old door.
+                  Uses the built-in lid angle sensor. Toggle on/off in Settings.
+                </p>
+              </div>
+            </div>
             <div className="group glass-card rounded-2xl p-8 flex gap-5">
               <Mic
                 className="w-7 h-7 text-brand-gold flex-shrink-0 mt-1"
