@@ -276,7 +276,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="group glass-card rounded-2xl p-8 flex gap-5 md:col-span-2 md:max-w-[calc(50%-0.625rem)]">
+            <div className="group glass-card rounded-2xl p-8 flex gap-5">
               <Trophy
                 className="w-7 h-7 text-amber-400 flex-shrink-0 mt-1"
                 strokeWidth={1.5}
