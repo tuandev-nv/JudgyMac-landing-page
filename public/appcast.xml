@@ -5,6 +5,26 @@
     <language>en</language>
 
     <item>
+      <title>Version 1.0.8</title>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>New: Lid creak sound — MacBook creaks like an old door when you open/close it</li>
+          <li>Switch payment from Polar.sh to LemonSqueezy</li>
+        </ul>
+      ]]></description>
+      <pubDate>Sat, 05 Apr 2026 11:00:00 +0700</pubDate>
+      <enclosure
+        url="https://judgymac.xyz/download/JudgyMac-1.0.8.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature=""
+        length="14495662"
+      />
+    </item>
+
+    <item>
       <title>Version 1.0.7</title>
       <sparkle:version>8</sparkle:version>
       <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
