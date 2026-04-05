@@ -11,7 +11,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <ul>
-          <li>New: Lid creak sound — MacBook creaks like an old door when you open/close it</li>
+          <li>New: Lid creak sound — MacBook creaks like an old door when you open/close it (toggle in Settings)</li>
           <li>Switch payment from Polar.sh to LemonSqueezy</li>
         </ul>
       ]]></description>
@@ -20,7 +20,7 @@
         url="https://judgymac.xyz/download/JudgyMac-1.0.8.dmg"
         type="application/octet-stream"
         sparkle:edSignature=""
-        length="14495662"
+        length="14496586"
       />
     </item>
 
