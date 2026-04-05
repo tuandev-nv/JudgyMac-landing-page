@@ -75,6 +75,23 @@ export default function Home() {
       </section>
 
 
+      {/* Demo Video */}
+      <section className="py-20 px-6">
+        <div className="max-w-lg mx-auto">
+          <ScrollReveal>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/50 border border-white/[0.06]">
+              <iframe
+                src="https://www.youtube.com/embed/3tai-iMZMbM"
+                title="JudgyMac Demo"
+                className="w-full aspect-[9/16]"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* How It Works */}
       <section className="py-32 px-6">
         <div className="max-w-4xl mx-auto">
