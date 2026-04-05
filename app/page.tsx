@@ -482,6 +482,13 @@ export default function Home() {
                     className="w-5 h-5 text-green-400 flex-shrink-0"
                     strokeWidth={2.5}
                   />{" "}
+                  Auto-update (Sparkle)
+                </li>
+                <li className="flex items-center gap-3 text-white/80 text-base">
+                  <Check
+                    className="w-5 h-5 text-green-400 flex-shrink-0"
+                    strokeWidth={2.5}
+                  />{" "}
                   Lifetime updates
                 </li>
               </ul>
@@ -558,8 +565,8 @@ export default function Home() {
             <ScrollReveal delay={4}>
               <div className="glass-card rounded-2xl p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-2 h-2 rounded-full bg-blue-400"></div>
-                  <span className="text-blue-400 text-xs font-medium uppercase tracking-wider">Exploring</span>
+                  <div className="w-2 h-2 rounded-full bg-green-400"></div>
+                  <span className="text-green-400 text-xs font-medium uppercase tracking-wider">Done</span>
                 </div>
                 <h3 className="font-display font-bold text-xl mb-2">Auto-Update (Sparkle)</h3>
                 <p className="text-white/50 text-[15px] leading-relaxed">One-click updates without re-downloading. Stay judged with the latest version automatically.</p>
